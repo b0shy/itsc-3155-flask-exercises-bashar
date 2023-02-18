@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Even or Odd</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="form-container">
+        <form method="POST">
+            <label for="number">Enter an integer:</label>
+            <input type="number" name="number" id="number" required>
+            <input type="submit" value="Check">
+        </form>
+    </div>
+</body>
+
+</html>
